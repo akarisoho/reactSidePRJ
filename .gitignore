@@ -1,0 +1,28 @@
+# 공통 무시 항목
+**/node_modules/
+**/dist/
+**/.env
+**/.DS_Store
+
+# 언어별 빌드 아티팩트
+**/build/
+**/out/
+**/.next
+
+# 개별 설정 파일 무시
+**/package-lock.json
+**/yarn.lock
+**/pnpm-lock.yaml
+**/package.json
+**/config.js
+**/vite.config.*
+**/webpack.config.*
+
+# IDE 관련
+.vscode/
+.idea/
+*.log
+
+**/*.class
+**/*.war
+**/*.jar
